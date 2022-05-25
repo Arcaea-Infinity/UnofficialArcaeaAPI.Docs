@@ -11,6 +11,15 @@
 * (optional) add some nodes
 * start service
 
+### Nuget Packages Dependencies
+
+| PackageName                             | Version |
+|:----------------------------------------|:--------|
+| Microsoft.AspNetCore.Mvc.NewtonsoftJson | 6.0.1   |
+| sqlite-net-pcl                          | 1.7.335 |
+| Newtonsoft.Json                         | 13.0.1  |
+| Downloader                              | 2.3.5   |
+
 ### Configuration fields
 
 * config.json

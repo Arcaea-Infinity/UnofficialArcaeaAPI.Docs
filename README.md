@@ -10,18 +10,6 @@ For the deploy tutorial of AUA, please refer to [How to deploy AUA](/deploy.md).
 
 > Accessing some api requires a specific User-Agent
 
-### Nuget Packages Dependencies
-
-| PackageName                             | Version |
-|:----------------------------------------|:--------|
-| Microsoft.AspNetCore.Mvc.NewtonsoftJson | 6.0.1   |
-| sqlite-net-pcl                          | 1.7.335 |
-| Newtonsoft.Json                         | 13.0.1  |
-
-### Other Sortware Dependence
-
-+ ariac2
-
 ### API Entry
 
 + [user/info](/user/userinfo.md)
