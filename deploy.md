@@ -3,7 +3,6 @@
 ### Get Started
 
 * install ASP.NET Core Runtime 6.0
-* install ariac2
 * download the latest release
 * edit config.json
 * download arcsong.db to data_path then override the empty one
