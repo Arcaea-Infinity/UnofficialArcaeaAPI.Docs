@@ -10,6 +10,10 @@ For the deploy tutorial of AUA, please refer to [How to deploy AUA](/deploy.md).
 
 > Accessing some api requires a specific User-Agent
 
+### Community
+
+> [Discord](https://discord.gg/4wSjfYpnY5)
+
 ### API Entry
 
 + [user/info](/user/userinfo.md)
