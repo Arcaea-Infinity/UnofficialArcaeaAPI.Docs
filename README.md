@@ -45,7 +45,7 @@ For the deploy tutorial of AUA, please refer to [How to deploy AUA](/deploy.md).
 | -11    | allocate an arc account failed                            |  
 | -12    | clear friend failed                                       |  
 | -13    | add friend failed                                         |  
-| -14    | this song has no beyond level                             |  
+| -14    | this song has no this level                               |  
 | -15    | not played yet                                            |  
 | -16    | user got shadowbanned                                     |
 | -17    | querying best30 failed                                    |  
