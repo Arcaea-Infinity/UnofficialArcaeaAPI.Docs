@@ -8,7 +8,7 @@ For the deploy tutorial of AUA, please refer to [How to deploy AUA](/deploy.md).
 
 ### Note
 
-> Accessing some api requires a specific User-Agent
+> Some APIs have an access limit of 10 requests per IP per day without a token.
 
 ### Community
 
@@ -19,14 +19,21 @@ For the deploy tutorial of AUA, please refer to [How to deploy AUA](/deploy.md).
 + [user/info](/user/userinfo.md)
 + [user/best](/user/userbest.md)
 + [user/best30](/user/userbest30.md)
+
+
 + [song/info](/song/songinfo.md)
 + [song/alias](/song/songalias.md)
 + [song/random](/song/songrandom.md)
+
+
 + [assets/icon](/assets/iconassets.md)
 + [assets/char](/assets/charassets.md)
 + [assets/song](/assets/songassets.md)
-+ [update](/others/update.md)
-+ [playdata](/others/playdata.md)
+
+
++ [data/update](/data/update.md)
++ [data/theory](/data/theory.md)
++ [data/playdata](/data/playdata.md)
 
 ### Error status
 

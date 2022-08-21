@@ -14,7 +14,7 @@
 
 #### Example
 
-+ `{apiurl}/botarcapi/playdata?songid=ifi&difficulty=2&start=1280&end=1288`
++ `{apiurl}/botarcapi/data/playdata?songid=ifi&difficulty=2&start=1280&end=1288`
 
 ##### Return data
 
