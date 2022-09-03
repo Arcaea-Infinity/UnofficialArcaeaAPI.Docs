@@ -22,6 +22,7 @@ For the deploy tutorial of AUA, please refer to [How to deploy AUA](/deploy.md).
 
 
 + [song/info](/song/songinfo.md)
++ [song/list](/song/songlist.md)
 + [song/alias](/song/songalias.md)
 + [song/random](/song/songrandom.md)
 
