@@ -64,7 +64,8 @@ For the deploy tutorial of AUA, please refer to [How to deploy AUA](/deploy.md).
 | -22    | range of rating end smaller than its start                |
 | -23    | potential is below the threshold of querying best30 (7.0) |  
 | -24    | need to update arcaea, please contact maintainer          | 
-| -25    | invalid version                                           |   
+| -25    | invalid version                                           | 
+| -26    | daily query quota exceeded                                | 
 | -233   | internal error occurred                                   |  
 
 ### Abnormal Example
