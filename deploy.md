@@ -4,7 +4,7 @@
 
 * install ASP.NET Core Runtime 6.0
 * download the latest release
-* edit config.json
+* edit configuration files
 * download arcsong.db to data_path then override the empty one
 * add some arcaea accounts (name & password) in arcaccount.db
 * (optional) add some nodes
@@ -32,11 +32,17 @@
 | cert_name       | certificate file name in the data folder                      | "cert-3.12.8c.p12"                        |
 | cert_password   | certificate file password                                     | "HelloWorld"                              |
 | open_register   | whether to enable the automatic registration task             | false                                     |
+| quota           | Allow the number of requests without token per ip per day     | 0                                         |
 | challenge_api   | the url of the challenge API                                  | "https://example.com/botarcapi/challenge" |
 | challenge_type  | the type of the challenge API                                 | "aua" <br/> "taikari"                     |
 | challenge_token | the token of the challenge API (Taikari API will ignore this) | "yourtokenhere"                           |
 | nodes           | TCP port forwarding server                                    |                                           |
-| whitelist       | whitelist of User-Agent in regex array                        | [".*"]                                    |
+
+* useragents.json
+  *  whitelist of User-Agent in regex array like `[".*"]`
+
+* tokens.json
+  *  whitelist of Bearer Token in array
 
 * appsettings.json
 
