@@ -66,6 +66,7 @@ For the deploy tutorial of AUA, please refer to [How to deploy AUA](/deploy.md).
 | -24    | need to update arcaea, please contact maintainer          | 
 | -25    | invalid version                                           | 
 | -26    | daily query quota exceeded                                | 
+| -27    | illegal hash, please contact maintainer                   |
 | -233   | internal error occurred                                   |  
 
 ### Abnormal Example
