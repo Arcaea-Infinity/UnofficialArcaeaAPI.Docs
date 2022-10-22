@@ -10,15 +10,6 @@
 * (optional) add some nodes
 * start service
 
-### Nuget Packages Dependencies
-
-| PackageName                             | Version |
-|:----------------------------------------|:--------|
-| Microsoft.AspNetCore.Mvc.NewtonsoftJson | 6.0.1   |
-| sqlite-net-pcl                          | 1.7.335 |
-| Newtonsoft.Json                         | 13.0.1  |
-| Downloader                              | 2.3.5   |
-
 ### Configuration fields
 
 * config.json
@@ -63,7 +54,7 @@
   * ```bash
     socat -d TCP4-LISTEN:6161,reuseaddr,fork TCP4:arcapi-v2.lowiro.com:443
     ```
-  * It is highly recommended that set it as a background task using nohup, screen or whatever you like
+  * It is highly recommended that set it as a background task
 
 
 * Windows server

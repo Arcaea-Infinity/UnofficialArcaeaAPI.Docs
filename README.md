@@ -16,25 +16,32 @@ For the deploy tutorial of AUA, please refer to [How to deploy AUA](/deploy.md).
 
 ### API Entry
 
-+ [user/info](/user/userinfo.md)
-+ [user/best](/user/userbest.md)
-+ [user/best30](/user/userbest30.md)
++ [user/info](/user/info.md)
++ [user/best](/user/best.md)
++ [user/best30](/user/best30.md)
 
 
-+ [song/info](/song/songinfo.md)
-+ [song/list](/song/songlist.md)
-+ [song/alias](/song/songalias.md)
-+ [song/random](/song/songrandom.md)
++ [song/info](/song/info.md)
++ [song/list](/song/list.md)
++ [song/alias](/song/alias.md)
++ [song/random](/song/random.md)
 
 
-+ [assets/icon](/assets/iconassets.md)
-+ [assets/char](/assets/charassets.md)
-+ [assets/song](/assets/songassets.md)
++ [assets/icon](/assets/icon.md)
++ [assets/char](/assets/char.md)
++ [assets/song](/assets/song.md)
++ [assets/preview](/assets/preview.md) [^1]
 
 
 + [data/update](/data/update.md)
 + [data/theory](/data/theory.md)
 + [data/playdata](/data/playdata.md)
++ [data/density](/data/density.md)
++ [data/challenge](/data/challenge.md) [^2]
+
+[^1]: The `assets/preview` API is not available for release version of AUA. It is provided by [AffPreview](https://github.com/Arcaea-Infinity/Aff2Preview).
+
+[^2]: The `data/challenge` API is not available for release version of AUA.
 
 ### Error status
 

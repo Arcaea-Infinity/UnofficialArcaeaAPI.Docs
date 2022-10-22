@@ -1,5 +1,7 @@
 ## assets/song
 
+> Note: It is not recommended to use this API frequently.
+
 | arguments  | description                                                        | optional                                                  |
 |:-----------|:-------------------------------------------------------------------|-----------------------------------------------------------|
 | songname   | any song name for fuzzy querying                                   | true when songid or file is not null, otherwise false     |

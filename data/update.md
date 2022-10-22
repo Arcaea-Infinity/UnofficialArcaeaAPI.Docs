@@ -1,4 +1,4 @@
-## update
+## data/update
 
 ###### Tag
 
@@ -10,7 +10,7 @@
 
 ##### Return data
 
-```json
+```json5
 {
   "status": 0,
   "content": {

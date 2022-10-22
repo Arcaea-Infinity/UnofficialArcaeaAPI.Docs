@@ -1,5 +1,7 @@
 ## song/random
 
+> Note: It is recommended to use `song/list` API as the local cache data source.
+
 | arguments    | description                                | optional |
 |:-------------|:-------------------------------------------|----------|
 | start        | range of start (9+ => 9p , 10+ => 10p)     | true     |
@@ -22,7 +24,7 @@ var val = rating * 2 + (ratingPlus ? 1 : 0);
 
 ###### Return data
 
-```json
+```json5
 {
   "status": 0,
   "content": {

@@ -1,5 +1,7 @@
 ## song/info
 
+> Note: It is recommended to use `song/list` API as the local cache data source.
+
 | arguments  | description                                                                | optional                                        |
 |:-----------|:---------------------------------------------------------------------------|-------------------------------------------------|
 | songname   | any song name for fuzzy querying                                           | true when songid is not null, otherwise false   |
@@ -15,7 +17,7 @@
 
 ###### Return data
 
-```json
+```json5
 {
   "status": 0,
   "content": {

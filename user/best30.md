@@ -18,7 +18,7 @@
 
 ###### Return data (Edited for readability)
 
-```json
+```json5
 {
   "status": 0,
   "content": {

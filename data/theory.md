@@ -1,4 +1,4 @@
-## theory
+## data/theory
 
 | arguments    | description                                                                     | optional                                        |
 |:-------------|:--------------------------------------------------------------------------------|-------------------------------------------------|
@@ -17,7 +17,7 @@
 
 ##### Return data (Edited for readability)
 
-```json
+```json5
 {
   "status": 0,
   "content": {

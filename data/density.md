@@ -1,16 +1,12 @@
-## data/playdata
+## data/density
 
 > Note: It is a large data set, so it is not recommended to use this API frequently.
-
-> Note: It is recommended to use `data/density` API.
 
 | arguments  | description                          | optional                                                |
 |:-----------|:-------------------------------------|---------------------------------------------------------|
 | songname   | any song name for fuzzy querying     | true when songid or file is not null, otherwise false   |
 | songid     | sid in Arcaea songlist               | true when songname or file is not null, otherwise false |
 | difficulty | accept format are 3 or byn or beyond | true                                                    |
-| start      | range of potential start (100*)      | false                                                   |
-| end        | range of potential end  (100*)       | false                                                   |
 
 ###### Tag
 
@@ -18,7 +14,7 @@
 
 #### Example
 
-+ `{apiurl}/botarcapi/data/playdata?songid=ifi&difficulty=2&start=1280&end=1288`
++ `{apiurl}/botarcapi/data/density?songid=ifi&difficulty=2`
 
 ##### Return data (Edited for readability)
 
@@ -26,34 +22,21 @@
 {
   "status": 0,
   "content": [
-    {
-      "fscore": 1000, // (score/10000)
-      "count": 125
-    },
-    {
-      "fscore": 999,
-      "count": 28
-    },
-    {
-      "fscore": 998,
-      "count": 26
-    },
-    {
-      "fscore": 997,
-      "count": 19
-    },
-    {
-      "fscore": 996,
-      "count": 14
-    },
-    {
-      "fscore": 995,
-      "count": 6
-    },
-    {
-      "fscore": 994,
-      "count": 2
-    }
+    [
+      1000, // fscore, (score/10000)
+      115, // fpotential (potential/10)
+      1 // count
+    ],
+    [
+      1000,
+      116,
+      1
+    ],
+    [
+      1000,
+      117,
+      1
+    ]
   ]
 }
 ```
