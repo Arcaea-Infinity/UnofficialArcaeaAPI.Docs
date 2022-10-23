@@ -108,6 +108,17 @@ specially,
 }
 ```
 
+### Credits
+
+ + Special thanks to [TheSnowfield](https://github.com/TheSnowfield) for her [BotArcAPI](https://github.com/Arcaea-Infinity/BotArcAPIs-Memories) project and the extremely important assistance support in the development.
+
+
+ + Special thanks to [tiger0132](https://github.com/tiger0132) for his [ArcUpdAPI](https://github.com/Arcaea-Infinity/ArcUpdAPI) project and for giving me permission to use his code.
+
+
+ + Special thanks to all those who contributed to this project or made suggestions.
+
+
 ### License
 
 Licensed under `616 SB License`.
