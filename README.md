@@ -38,10 +38,13 @@ For the deploy tutorial of AUA, please refer to [How to deploy AUA](/deploy.md).
 + [data/playdata](/data/playdata.md)
 + [data/density](/data/density.md)
 + [data/challenge](/data/challenge.md) [^2]
++ [data/cert](/data/cert.md) [^3]
 
 [^1]: The `assets/preview` API is not available for release version of AUA. It is provided by [AffPreview](https://github.com/Arcaea-Infinity/Aff2Preview).
 
 [^2]: The `data/challenge` API is not available for release version of AUA.
+
+[^3]: The `data/cert` API is not available for release version of AUA.
 
 ### Error status
 
