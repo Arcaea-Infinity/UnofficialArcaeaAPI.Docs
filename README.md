@@ -8,7 +8,7 @@ For the deploy tutorial of AUA, please refer to [How to deploy AUA](/deploy.md).
 
 ### Note
 
-> Some APIs have an access limit of 10 requests per IP per day without a token.
+> Some APIs will be inaccessible without a token.
 
 ### Community
 
@@ -35,16 +35,14 @@ For the deploy tutorial of AUA, please refer to [How to deploy AUA](/deploy.md).
 
 + [data/update](/data/update.md)
 + [data/theory](/data/theory.md)
-+ [data/playdata](/data/playdata.md)
-+ [data/density](/data/density.md)
 + [data/challenge](/data/challenge.md) [^2]
 + [data/cert](/data/cert.md) [^3]
 
-[^1]: The `assets/preview` API is not available for release version of AUA. It is provided by [AffPreview](https://github.com/Arcaea-Infinity/Aff2Preview).
+[^1]: The `assets/preview` API is not available for release version. It is provided by [AffPreview](https://github.com/Arcaea-Infinity/Aff2Preview).
 
-[^2]: The `data/challenge` API is not available for release version of AUA.
+[^2]: The `data/challenge` API is not available for release version.
 
-[^3]: The `data/cert` API is not available for release version of AUA.
+[^3]: The `data/cert` API is not available for release version.
 
 ### Error status
 

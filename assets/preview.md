@@ -12,6 +12,8 @@
 
 * Enable Cors
 
+* Need Token
+
 #### Example
 
 + `{apiurl}/botarcapi/assets/preview?songid=ifi`
