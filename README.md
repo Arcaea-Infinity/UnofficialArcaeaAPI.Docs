@@ -8,7 +8,7 @@ For the deploy tutorial of AUA, please refer to [How to deploy AUA](/deploy.md).
 
 ### Note
 
-> Some APIs will be inaccessible without a token. [^4]
+> Some APIs will be inaccessible without a token. [^1]
 
 ### Community
 
@@ -30,21 +30,22 @@ For the deploy tutorial of AUA, please refer to [How to deploy AUA](/deploy.md).
 + [assets/icon](/assets/icon.md)
 + [assets/char](/assets/char.md)
 + [assets/song](/assets/song.md)
-+ [assets/preview](/assets/preview.md) [^1]
++ [assets/preview](/assets/preview.md) [^2]
 
 
 + [data/update](/data/update.md)
 + [data/theory](/data/theory.md)
-+ [data/challenge](/data/challenge.md) [^2]
-+ [data/cert](/data/cert.md) [^3]
++ [data/challenge](/data/challenge.md) [^3]
++ [data/cert](/data/cert.md) [^4]
 
-[^1]: The `assets/preview` API is not available for release version. It is provided by [AffPreview](https://github.com/Arcaea-Infinity/Aff2Preview).
+[^1]: For functions of the API those are requiring token: Please send header with `Authorization` and the value `Bearer token_here`.
 
-[^2]: The `data/challenge` API is not available for release version.
+[^2]: The `assets/preview` API is not available for release version. It is provided by [AffPreview](https://github.com/Arcaea-Infinity/Aff2Preview).
 
-[^3]: The `data/cert` API is not available for release version.
+[^3]: The `data/challenge` API is not available for release version.
 
-[^4]: For functions of the API those are requiring token: Please send header with `Authorization` and the value `Bearer token_here`.
+[^4]: The `data/cert` API is not available for release version.
+
 
 ### Error status
 
