@@ -44,6 +44,8 @@ For the deploy tutorial of AUA, please refer to [How to deploy AUA](/deploy.md).
 
 [^3]: The `data/cert` API is not available for release version.
 
+[^4]: For functions of the API those are requiring token: Please send header with `Authorization` and the value `Bearer token_here`.
+
 ### Error status
 
 | status | description                                               |
