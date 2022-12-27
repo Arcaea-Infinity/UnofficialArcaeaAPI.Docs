@@ -8,7 +8,7 @@ For the deploy tutorial of AUA, please refer to [How to deploy AUA](/deploy.md).
 
 ### Note
 
-> Some APIs will be inaccessible without a token.
+> Some APIs will be inaccessible without a token. [^4]
 
 ### Community
 
