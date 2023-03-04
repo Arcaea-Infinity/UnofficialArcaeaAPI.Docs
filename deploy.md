@@ -14,20 +14,20 @@
 
 * config.json
 
-| field           | description                                                   | example                                   |
-|:----------------|:--------------------------------------------------------------|-------------------------------------------|
-| data_path       | path to save files and databases                              | "/etc/arcaeaunlimitedapi/data"            |
-| app_version     | latest Arcaea version                                         | "3.12.8c"                                 |
-| api_entry       | latest Arcaea API entry                                       | "years/19"                                |
-| host            | latest Arcaea API Host                                        | "arcapi-v2.lowiro.com"                    |
-| cert_name       | certificate file name in the data folder                      | "cert-3.12.8c.p12"                        |
-| cert_password   | certificate file password                                     | "HelloWorld"                              |
-| open_register   | whether to enable the automatic registration task             | false                                     |
-| quota           | Allow the number of requests without token per ip per day     | 0                                         |
-| challenge_api   | the url of the challenge API                                  | "https://example.com/botarcapi/challenge" |
-| challenge_type  | the type of the challenge API                                 | "aua" <br/> "taikari"                     |
-| challenge_token | the token of the challenge API (Taikari API will ignore this) | "yourtokenhere"                           |
-| nodes           | TCP port forwarding server                                    |                                           |
+  | field           | description                                                   | example                                   |
+  |:----------------|:--------------------------------------------------------------|-------------------------------------------|
+  | data_path       | path to save files and databases                              | "/etc/arcaeaunlimitedapi/data"            |
+  | app_version     | latest Arcaea version                                         | "3.12.8c"                                 |
+  | api_entry       | latest Arcaea API entry                                       | "years/19"                                |
+  | host            | latest Arcaea API Host                                        | "arcapi-v2.lowiro.com"                    |
+  | cert_name       | certificate file name in the data folder                      | "cert-3.12.8c.p12"                        |
+  | cert_password   | certificate file password                                     | "HelloWorld"                              |
+  | open_register   | whether to enable the automatic registration task             | false                                     |
+  | quota           | Allow the number of requests without token per ip per day     | 0                                         |
+  | challenge_api   | the url of the challenge API                                  | "https://example.com/botarcapi/challenge" |
+  | challenge_type  | the type of the challenge API                                 | "aua" <br/> "taikari"                     |
+  | challenge_token | the token of the challenge API (Taikari API will ignore this) | "yourtokenhere"                           |
+  | nodes           | TCP port forwarding server                                    |                                           |
 
 * useragents.json
   *  whitelist of User-Agent in regex array like `[".*"]`
@@ -37,9 +37,9 @@
 
 * appsettings.json
 
-| field | description                  | example                                       |
-|:------|:-----------------------------|-----------------------------------------------|
-| urls  | port to provide your service | "https://*:616" <br/> "https://localhost:616" |
+  | field | description                  | example                                       |
+  |:------|:-----------------------------|-----------------------------------------------|
+  | urls  | port to provide your service | "https://*:616" <br/> "https://localhost:616" |
 
 ### How a node works
 
@@ -51,7 +51,7 @@
 
 * Linux server
   * install socat, and just run
-  * ```bash
+    ```bash
     socat -d TCP4-LISTEN:6161,reuseaddr,fork TCP4:arcapi-v2.lowiro.com:443
     ```
   * It is highly recommended that set it as a background task
@@ -59,7 +59,8 @@
 
 * Windows server
   * run cmd as administrator, then run
-  * ```bash
+    
+    ```bash
     netsh interface portproxy add v4tov4 listenport=6161 connectaddress=arcapi-v2.lowiro.com connectport=443
     ```
 
@@ -70,7 +71,7 @@
 
 
 * Add the node in config.nodes like
-  * ```json
+    ```json
     {
         "url": "192.3.xxx.xxx",
         "port": 6161, 
@@ -79,7 +80,4 @@
     ```
 
 * How to test node
-  * ```
-    https://${nodeip}:${port}/${api_entry}/
-    ```
-  * Access the url with a browser or curl and check if the certificate is from *.lowiro.com 
+  * Access `https://${nodeip}:${port}/${api_entry}/` with a browser or curl and check if the certificate is from *.lowiro.com 
