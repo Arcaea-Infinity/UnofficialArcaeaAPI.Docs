@@ -28,11 +28,8 @@
 
 > Note: most of fields in `config.json` is not need to fill in manually after the first-start
 
-* useragents.json
-  *  whitelist of User-Agent in regex array like `[".*"]`
-
 * tokens.json
-  *  whitelist of Bearer Token in array
+  *  whitelist array of token(string) in json format
 
 * appsettings.json
 
