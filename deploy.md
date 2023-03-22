@@ -2,13 +2,10 @@
 
 ### Get Started
 
-* install ASP.NET Core Runtime 6.0
-* download the latest release
-* edit configuration files
-* download arcsong.db to data_path then override the empty one
-* add some arcaea accounts (name & password) in arcaccount.db
-* (optional) add some nodes
-* start service
+* Install ASP.NET Core Runtime 6.0
+* Download the latest release
+* Start service
+* Follow the prompts to proceed after filling in the `challenge_token`, saving and restarting the service
 
 ### Configuration fields
 
@@ -16,18 +13,20 @@
 
   | field           | description                                                   | example                                   |
   |:----------------|:--------------------------------------------------------------|-------------------------------------------|
-  | data_path       | path to save files and databases                              | "/etc/arcaeaunlimitedapi/data"            |
-  | app_version     | latest Arcaea version                                         | "3.12.8c"                                 |
-  | api_entry       | latest Arcaea API entry                                       | "years/19"                                |
+  | api_entry       | latest Arcaea API entry                                       | "join/21"                                 |
+  | app_version     | latest Arcaea version                                         | "4.3.2c"                                  |  
   | host            | latest Arcaea API Host                                        | "arcapi-v2.lowiro.com"                    |
-  | cert_name       | certificate file name in the data folder                      | "cert-3.12.8c.p12"                        |
+  | cert_name       | certificate file name in the data folder                      | "cert-4.3.2c.p12"                         |
   | cert_password   | certificate file password                                     | "HelloWorld"                              |
-  | open_register   | whether to enable the automatic registration task             | false                                     |
-  | quota           | Allow the number of requests without token per ip per day     | 0                                         |
+  | data_path       | path to save files and databases                              | "/etc/arcaeaunlimitedapi/data"            |
+  | open_register   | whether to enable the automatic registration task             | true                                      |
+  | quota           | Allow the number of requests without token per ip per day     | 10                                         |
+  | challenge_type  | the type of the challenge API                                 | "aua" <br/> "taikari"                     |  
   | challenge_api   | the url of the challenge API                                  | "https://example.com/botarcapi/challenge" |
-  | challenge_type  | the type of the challenge API                                 | "aua" <br/> "taikari"                     |
   | challenge_token | the token of the challenge API (Taikari API will ignore this) | "yourtokenhere"                           |
   | nodes           | TCP port forwarding server                                    |                                           |
+
+> Note: most of fields in `config.json` is not need to fill in manually after the first-start
 
 * useragents.json
   *  whitelist of User-Agent in regex array like `[".*"]`
