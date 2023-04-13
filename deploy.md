@@ -22,7 +22,8 @@
   | host            | latest Arcaea API Host                                        | "arcapi-v2.lowiro.com"                    |
   | cert_name       | certificate file name in the data folder                      | "cert-3.12.8c.p12"                        |
   | cert_password   | certificate file password                                     | "HelloWorld"                              |
-  | open_register   | whether to enable the automatic registration task             | false                                     |
+  | open_register   | whether to register accounts automaticly                      | false                                     |
+  | auto_update     | whether to update assets automaticly                          | false                                     |
   | quota           | Allow the number of requests without token per ip per day     | 0                                         |
   | challenge_api   | the url of the challenge API                                  | "https://example.com/botarcapi/challenge" |
   | challenge_type  | the type of the challenge API                                 | "aua" <br/> "taikari"                     |
