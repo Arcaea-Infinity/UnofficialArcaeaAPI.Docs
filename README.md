@@ -78,6 +78,7 @@ For the deploy tutorial of AUA, please refer to [How to deploy AUA](/deploy.md).
 | -25    | invalid version                                           | 
 | -26    | daily query quota exceeded                                | 
 | -27    | illegal hash, please contact maintainer                   |
+| -28    | image server error                                        |
 | -233   | internal error occurred                                   |  
 
 ### Abnormal Example
