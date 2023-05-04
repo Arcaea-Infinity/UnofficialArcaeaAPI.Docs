@@ -2,7 +2,7 @@
 
 #### Example
 
-+ `{apiurl}/botarcapi/data/cert`
++ `{apiurl}/arcapi/data/cert`
 
 ##### Return data (Edited for readability)
 

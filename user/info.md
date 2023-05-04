@@ -1,11 +1,11 @@
 ## user/info
 
-| arguments    | description                                                     | optional                                        |
-|:-------------|:----------------------------------------------------------------|-------------------------------------------------|
-| user         | user name or 9-digit user code                                  | true when usercode is not null, otherwise false |
-| usercode     | 9-digit user code                                               | true when user is not null, otherwise false     |
-| recent       | number, range 0-7. The number of recently played songs expected | true                                            |
-| withsonginfo | boolean. if true, will reply with songinfo                      | true                                            |
+| arguments      | description                                                     | optional                                        |
+|:---------------|:----------------------------------------------------------------|-------------------------------------------------|
+| user_name      | user name or 9-digit user code                                  | true when usercode is not null, otherwise false |
+| user_code      | 9-digit user code                                               | true when user is not null, otherwise false     |
+| recent         | number, range 0-7. The number of recently played songs expected | true                                            |
+| with_song_info | boolean. if true, will reply with songinfo                      | true                                            |
 
 ###### Tag
 
@@ -13,7 +13,7 @@
 
 #### Example
 
-+ `{apiurl}/botarcapi/user/info?user=ToasterKoishi&recent=2&withsonginfo=true`
++ `{apiurl}/arcapi/user/info?user=ToasterKoishi&recent=2&with_song_info=true`
 
 ###### Return data
 
@@ -65,7 +65,7 @@
         "shiny_perfect_count": 1003
       }
     ],
-    "songinfo": [
+    "song_info": [
       {
         "name_en": "MacrocosmicModulation",
         "name_jp": "",

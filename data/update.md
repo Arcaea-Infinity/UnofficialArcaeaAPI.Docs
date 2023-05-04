@@ -6,7 +6,7 @@
 
 #### Example
 
-+ `{apiurl}/botarcapi/data/update`
++ `{apiurl}/arcapi/data/update`
 
 ##### Return data
 

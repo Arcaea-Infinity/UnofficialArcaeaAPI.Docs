@@ -8,7 +8,7 @@
 
 #### Example
 
-+ `{apiurl}/botarcapi/song/list`
++ `{apiurl}/arcapi/song/list`
 
 ###### Return data (Edited for readability)
 

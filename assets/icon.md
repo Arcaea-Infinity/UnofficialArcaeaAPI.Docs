@@ -13,7 +13,7 @@
 
 #### Example
 
-+ `{apiurl}/botarcapi/assets/icon?partner=1`
++ `{apiurl}/arcapi/assets/icon?partner=1`
 
 ###### Content-Type
 

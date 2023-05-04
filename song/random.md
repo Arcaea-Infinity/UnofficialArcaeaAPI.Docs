@@ -2,11 +2,11 @@
 
 > Note: It is recommended to use `song/list` API as the local cache data source.
 
-| arguments    | description                                | optional |
-|:-------------|:-------------------------------------------|----------|
-| start        | range of start (9+ => 9p , 10+ => 10p)     | true     |
-| end          | range of end                               | true     |
-| withsonginfo | boolean. if true, will reply with songinfo | true     |
+| arguments      | description                                | optional |
+|:---------------|:-------------------------------------------|----------|
+| start          | range of start (9+ => 9p , 10+ => 10p)     | true     |
+| end            | range of end                               | true     |
+| with_song_info | boolean. if true, will reply with songinfo | true     |
 
 ###### Tag
 
@@ -20,7 +20,7 @@ var val = rating * 2 + (ratingPlus ? 1 : 0);
 
 #### Example
 
-+ `{apiurl}/botarcapi/song/random?start=19&end=22&withsonginfo=true`
++ `{apiurl}/arcapi/song/random?start=19&end=22&with_song_info=true`
 
 ###### Return data
 
@@ -29,8 +29,8 @@ var val = rating * 2 + (ratingPlus ? 1 : 0);
   "status": 0,
   "content": {
     "id": "divinelight",
-    "ratingClass": 2,
-    "songinfo": {
+    "rating_class": 2,
+    "song_info": {
       "name_en": "Divine Light of Myriad",
       "name_jp": "光速神授説 - Divine Light of Myriad -",
       "artist": "yoho",

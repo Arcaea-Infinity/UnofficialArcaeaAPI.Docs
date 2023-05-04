@@ -4,8 +4,8 @@
 
 | arguments  | description                          | optional                                        |
 |:-----------|:-------------------------------------|-------------------------------------------------|
-| songname   | any song name for fuzzy querying     | true when songid is not null, otherwise false   |
-| songid     | sid in Arcaea songlist               | true when songname is not null, otherwise false |
+| song_name  | any song name for fuzzy querying     | true when songid is not null, otherwise false   |
+| song_id    | sid in Arcaea songlist               | true when songname is not null, otherwise false |
 | difficulty | accept format are 3 or byn or beyond | true                                            |
 
 ###### Tag
@@ -16,10 +16,10 @@
 
 #### Example
 
-+ `{apiurl}/botarcapi/assets/preview?songid=ifi`
++ `{apiurl}/arcapi/assets/preview?song_id=ifi`
 
 ###### Content-Type
 
 ```
-image/png
+image/jpeg
 ```

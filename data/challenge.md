@@ -1,7 +1,5 @@
 ## data/challenge
 
-> Note: It is designed for the release version of AUA, and not available for the release version.
-
 | arguments | description         | optional                |
 |:----------|:--------------------|-------------------------|
 | path      | request arcapi path | false                   |
@@ -29,9 +27,13 @@
 
 #### Example
 
-+ `{apiurl}/botarcapi/data/challenge?path=auth/login`
++ GET `{apiurl}/arcapi/data/challenge?path=auth/login`
+
++ POST `{apiurl}/arcapi/data/challenge?path=auth/login` with Json Array content
 
 ##### Return data (Edited for readability)
+
++ GET
 
 ```json5
 {

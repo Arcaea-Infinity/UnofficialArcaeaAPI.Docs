@@ -1,12 +1,11 @@
-## user/best30
+## user/bests/result
 
-| arguments    | description                                                                     | optional                                        |
-|:-------------|:--------------------------------------------------------------------------------|-------------------------------------------------|
-| user         | user name or 9-digit user code                                                  | true when usercode is not null, otherwise false |
-| usercode     | 9-digit user code                                                               | true when user is not null, otherwise false     |
-| overflow     | number, range 0-10. The number of the	overflow records below the best30 minimum | true                                            |
-| withrecent   | boolean. if true, will reply with recent_score                                  | true                                            |
-| withsonginfo | boolean. if true, will reply with songinfo                                      | true                                            |
+| arguments      | description                                                                     | optional |
+|:---------------|:--------------------------------------------------------------------------------|----------|
+| session_info   | session_info from `user/bests/session`                                          | false    |
+| overflow       | number, range 0-10. The number of the overflow records below the best30 minimum | true     |
+| with_recent    | boolean. if true, will reply with recent_score                                  | true     |
+| with_song_info | boolean. if true, will reply with songinfo                                      | true     |
 
 ###### Tag
 
@@ -14,9 +13,33 @@
 
 #### Example
 
-+ `{apiurl}/botarcapi/user/best30?user=ToasterKoishi&withrecent=true&withsonginfo=true`
++ `{apiurl}/arcapi/user/bests/result?session_info=4@1a966fd8-3066-4935-975c-09cc1e042d7a&withrecent=true&withsonginfo=true`
 
 ###### Return data (Edited for readability)
+
++ Failed with additional data
+
+```json5
+{
+  "status": -31,
+  "message": "session querying, queried charts: 40",
+  "content": {
+    "queried_charts": 40
+  }
+}
+```
+
+```json5
+{
+  "status": -32,
+  "message": "session waiting for account, account count: 4",
+  "content": {
+    "current_account": 4
+  }
+}
+```
+
++ Success
 
 ```json5
 {
@@ -53,7 +76,7 @@
         "shiny_perfect_count": 1376
       }
     ],
-    "best30_songinfo": [
+    "best30_song_info": [
       {
         "name_en": "Grievous Lady",
         "name_jp": "",
@@ -94,7 +117,7 @@
       "perfect_count": 1054,
       "shiny_perfect_count": 1003
     },
-    "recent_songinfo": {
+    "recent_song_info": {
       "name_en": "LunarOrbit -believe in the Espebranch road-",
       "name_jp": "白道、多希望羊と信じありく。",
       "artist": "Apo11o program ft. 大瀬良あい",

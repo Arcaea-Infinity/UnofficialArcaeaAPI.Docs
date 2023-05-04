@@ -1,11 +1,11 @@
 ## data/theory
 
-| arguments    | description                                                                     | optional                                        |
-|:-------------|:--------------------------------------------------------------------------------|-------------------------------------------------|
-| overflow     | number, range 0-10. The number of the	overflow records below the best30 minimum | true                                            |
-| withrecent   | boolean. if true, will reply with recent_score                                  | true                                            |
-| withsonginfo | boolean. if true, will reply with songinfo                                      | true                                            |
-| version      | string, formatted like '4.0'.     The version of  Arcaea.                       | true                                            |
+| arguments      | description                                                                     | optional |
+|:---------------|:--------------------------------------------------------------------------------|----------|
+| overflow       | number, range 0-10. The number of the	overflow records below the best30 minimum | true     |
+| with_recent    | boolean. if true, will reply with recent_score                                  | true     |
+| with_song_info | boolean. if true, will reply with songinfo                                      | true     |
+| version        | string, formatted like '4.0'.     The version of  Arcaea.                       | true     |
 
 ###### Tag
 
@@ -13,7 +13,7 @@
 
 #### Example
 
-+ `{apiurl}/botarcapi/data/theory?withrecent=true&withsonginfo=true&version=3.0`
++ `{apiurl}/arcapi/data/theory?with_recent=true&with_song_info=true&version=3.0`
 
 ##### Return data (Edited for readability)
 

@@ -2,10 +2,10 @@
 
 > Note: It is recommended to use `song/list` API as the local cache data source.
 
-| arguments  | description                                                                | optional                                        |
-|:-----------|:---------------------------------------------------------------------------|-------------------------------------------------|
-| songname   | any song name for fuzzy querying                                           | true when songid is not null, otherwise false   |
-| songid     | sid in Arcaea songlist                                                     | true when songname is not null, otherwise false |
+| arguments | description                                                                | optional                                        |
+|:----------|:---------------------------------------------------------------------------|-------------------------------------------------|
+| song_name | any song name for fuzzy querying                                           | true when songid is not null, otherwise false   |
+| song_id   | sid in Arcaea songlist                                                     | true when songname is not null, otherwise false |
 
 ###### Tag
 
@@ -13,7 +13,7 @@
 
 #### Example
 
-+ `{apiurl}/botarcapi/song/alias?songid=ifi`
++ `{apiurl}/arcapi/song/alias?song_id=ifi`
 
 ##### Return data
 
