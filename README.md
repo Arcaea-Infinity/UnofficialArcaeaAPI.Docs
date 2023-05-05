@@ -74,12 +74,12 @@ A slow Arcaea API for my own use.
 | -26    | daily query quota exceeded                                       | 
 | -27    | illegal hash, please contact maintainer                          |
 | -28    | image server error                                               |
-| -29    | invavid session info                                             |
+| -29    | invalid session info                                             |
 | -30    | session expired                                                  |
 | -31    | session querying, queried charts: ${queriedCharts} (*)           |
 | -32    | session waiting for account, account count: ${accountCount} (*)  |
 | -33    | too many bests requests. cached session generated (*)            |
-| -34    | invavid account                                                  |
+| -34    | invalid account                                                  |
 | -233   | internal error occurred                                          |  
 
 > (*) means return additional data

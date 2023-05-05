@@ -1,5 +1,7 @@
 ## user/bests/result
 
+> Note: This api is cache-based and the results may not be real-time.
+
 | arguments      | description                                                                     | optional |
 |:---------------|:--------------------------------------------------------------------------------|----------|
 | session_info   | session_info from `user/bests/session`                                          | false    |
@@ -45,6 +47,7 @@
 {
   "status": 0,
   "content": {
+    "query_time": 1683205681782,
     "best30_avg": 12.707672500000001,
     "recent10_avg": 12.836982499999998,
     "account_info": {
