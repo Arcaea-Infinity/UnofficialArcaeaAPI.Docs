@@ -2,10 +2,10 @@
 
 | arguments      | description                                                                     | optional |
 |:---------------|:--------------------------------------------------------------------------------|----------|
-| overflow       | number, range 0-10. The number of the	overflow records below the best30 minimum | true     |
+| overflow       | number, range 0-10. The number of the overflow records below the best30 minimum | true     |
 | with_recent    | boolean. if true, will reply with recent_score                                  | true     |
-| with_song_info | boolean. if true, will reply with songinfo                                      | true     |
-| version        | string, formatted like '4.0'.     The version of  Arcaea.                       | true     |
+| with_song_info | boolean. if true, will reply with song_info                                     | true     |
+| version        | string, formatted like '4.0'.     The version of Arcaea.                        | true     |
 
 ###### Tag
 
@@ -52,7 +52,7 @@
         "shiny_perfect_count": 1279
       }
     ],
-    "best30_songinfo": [
+    "best30_song_info": [
       {
         "name_en": "Fracture Ray",
         "name_jp": "",
@@ -92,7 +92,7 @@
       "perfect_count": 1279,
       "shiny_perfect_count": 1279
     },
-    "recent_songinfo": {
+    "recent_song_info": {
       "name_en": "Fracture Ray",
       "name_jp": "",
       "artist": "Sakuzyo",

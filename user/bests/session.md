@@ -1,9 +1,10 @@
 ## user/bests/session
 
-| arguments  | description                                                     | optional                                        |
-|:-----------|:----------------------------------------------------------------|-------------------------------------------------|
-| user_name  | user name or 9-digit user code                                  | true when usercode is not null, otherwise false |
-| user_code  | 9-digit user code                                               | true when user is not null, otherwise false     |
+| arguments  | description                             | optional                                        |
+|:-----------|:----------------------------------------|-------------------------------------------------|
+| user_name  | user name or 9-digit user code          | true when usercode is not null, otherwise false |
+| user_code  | 9-digit user code                       | true when user is not null, otherwise false     |
+| from_cache | boolean. if true, will query from cache | true                                            |
 
 ###### Tag
 

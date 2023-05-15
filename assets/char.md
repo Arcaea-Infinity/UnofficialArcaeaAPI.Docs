@@ -5,7 +5,7 @@
 | arguments | description                  | optional |
 |:----------|:-----------------------------|----------|
 | partner   | partner id                   | false    |
-| awakened  | Boolean, partner is awakened | true     |
+| awakened  | boolean. partner is awakened | true     |
 
 ###### Tag
 

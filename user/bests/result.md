@@ -7,7 +7,7 @@
 | session_info   | session_info from `user/bests/session`                                          | false    |
 | overflow       | number, range 0-10. The number of the overflow records below the best30 minimum | true     |
 | with_recent    | boolean. if true, will reply with recent_score                                  | true     |
-| with_song_info | boolean. if true, will reply with songinfo                                      | true     |
+| with_song_info | boolean. if true, will reply with song_info                                     | true     |
 
 ###### Tag
 

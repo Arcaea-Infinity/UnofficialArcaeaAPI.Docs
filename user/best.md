@@ -1,14 +1,15 @@
 ## user/best
 
-| arguments      | description                                                                | optional                                        |
-|:---------------|:---------------------------------------------------------------------------|-------------------------------------------------|
-| user_name      | user name or 9-digit user code                                             | true when usercode is not null, otherwise false |
-| user_code      | 9-digit user code                                                          | true when user is not null, otherwise false     |
-| song_name      | any song name for fuzzy querying                                           | true when songid is not null, otherwise false   |
-| song_id        | sid in Arcaea songlist                                                     | true when songname is not null, otherwise false |
-| difficulty     | accept format are 0/1/2/3 or pst/prs/ftr/byn or past/present/future/beyond | false                                           |
-| with_recent    | boolean. if true, will reply with recent_score                             | true                                            |
-| with_song_info | boolean. if true, will reply with songinfo                                 | true                                            |
+| arguments       | description                                                                 | optional                                        |
+|:----------------|:----------------------------------------------------------------------------|-------------------------------------------------|
+| user_name       | user name or 9-digit user code                                              | true when usercode is not null, otherwise false |
+| user_code       | 9-digit user code                                                           | true when user is not null, otherwise false     |
+| song_name       | any song name for fuzzy querying                                            | true when songid is not null, otherwise false   |
+| song_id         | sid in Arcaea songlist                                                      | true when songname is not null, otherwise false |
+| difficulty      | accept format are 0/1/2/3 or pst/prs/ftr/byn or past/present/future/beyond  | false                                           |
+| with_recent     | boolean. if true, will reply with recent_score                              | true                                            |
+| with_song_info  | boolean. if true, will reply with song_info                                 | true                                            |
+| with_bests_info | boolean. if true and cache exists, will reply with best30_avg, recent10_avg | true                                            |
 
 ###### Tag
 
@@ -16,7 +17,7 @@
 
 #### Example
 
-+ `{apiurl}/arcapi/user/best?user=ToasterKoishi&song_id=ifi&difficulty=ftr&with_recent=true&with_song_info=true`
++ `{apiurl}/arcapi/user/best?user=ToasterKoishi&song_id=ifi&difficulty=ftr&with_recent=true&with_song_info=true&with_bests_info=true`
 
 ###### Return data
 
@@ -36,6 +37,8 @@
       "join_date": 1487816563340,
       "character": 12
     },
+    "best30_avg": 12.707672500000001,
+    "recent10_avg": 12.836982499999998,
     "record": {
       "score": 9979257,
       "health": 100,

@@ -2,11 +2,11 @@
 
 > Note: It is recommended to use `song/list` API as the local cache data source.
 
-| arguments      | description                                | optional |
-|:---------------|:-------------------------------------------|----------|
-| start          | range of start (9+ => 9p , 10+ => 10p)     | true     |
-| end            | range of end                               | true     |
-| with_song_info | boolean. if true, will reply with songinfo | true     |
+| arguments      | description                                 | optional |
+|:---------------|:--------------------------------------------|----------|
+| start          | range of start (9+ => 9p , 10+ => 10p)      | true     |
+| end            | range of end                                | true     |
+| with_song_info | boolean. if true, will reply with song_info | true     |
 
 ###### Tag
 
