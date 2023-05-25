@@ -39,18 +39,9 @@
     "recent_score": [
       {
         "score": 9992128,
-        "health": 100,
-        "rating": 11.76064,
         "song_id": "macromod",
-        "modifier": 2,
         "difficulty": 2,
-        "clear_type": 2,
-        "best_clear_type": 2,
-        "time_played": 1651198101733,
-        "near_count": 2,
-        "miss_count": 0,
-        "perfect_count": 1115,
-        "shiny_perfect_count": 1081
+        "time_played": 1651198101733
       },
       {
         "score": 9982099,

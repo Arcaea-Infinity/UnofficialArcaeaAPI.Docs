@@ -105,20 +105,10 @@
       }
     ],
     "recent_score": {
-      "user_id": 4,
       "score": 9982099,
-      "health": 100,
-      "rating": 11.510494999999999,
       "song_id": "espebranch",
-      "modifier": 0,
       "difficulty": 2,
-      "clear_type": 2,
-      "best_clear_type": 3,
-      "time_played": 1651045525836,
-      "near_count": 4,
-      "miss_count": 0,
-      "perfect_count": 1054,
-      "shiny_perfect_count": 1003
+      "time_played": 1651045525836
     },
     "recent_song_info": {
       "name_en": "LunarOrbit -believe in the Espebranch road-",
