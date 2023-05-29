@@ -105,6 +105,7 @@
     ],
     "recent_score": {
       "score": 9982099,
+      "rating": 11.510494999999999,
       "song_id": "espebranch",
       "difficulty": 2,
       "time_played": 1651045525836

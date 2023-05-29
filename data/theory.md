@@ -78,6 +78,7 @@
     ],
     "recent_score": {
       "score": 10001279,
+      "rating": 13.3,
       "song_id": "fractureray",
       "difficulty": 2,
       "time_played": 1531699208

@@ -80,6 +80,7 @@
     ],
     "recent_score": {
       "score": 9992128,
+      "rating": 11.76064,
       "song_id": "macromod",
       "difficulty": 2,
       "time_played": 1651198101733
