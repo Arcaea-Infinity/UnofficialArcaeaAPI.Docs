@@ -15,7 +15,7 @@
 
 #### Example
 
-+ `{apiurl}/arcapi/user/bests/result?session_info=4@1a966fd8-3066-4935-975c-09cc1e042d7a&withrecent=true&withsonginfo=true`
++ `{apiurl}/arcapi/user/bests/result?session_info=4@1a966fd8-3066-4935-975c-09cc1e042d7a&with_recent=true&with_song_info=true`
 
 ###### Return data (Edited for readability)
 
