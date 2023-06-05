@@ -27,6 +27,13 @@
 
 ```json5
 {
+  "status": -23,
+  "message": "potential is below the threshold of querying bests (10.0)"
+}
+```
+
+```json5
+{
   "status": -33,
   "message": "duplicate bests requests within 12 hours. cached session generated",
   "content": {
