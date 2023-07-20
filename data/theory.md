@@ -79,10 +79,18 @@
     ],
     "recent_score": {
       "score": 10001279,
+      "health": 100,
       "rating": 13.3,
       "song_id": "fractureray",
+      "modifier": 0,
       "difficulty": 2,
-      "time_played": 1531699208
+      "clear_type": 3,
+      "best_clear_type": 3,
+      "time_played": 1531699208,
+      "near_count": 0,
+      "miss_count": 0,
+      "perfect_count": 1279,
+      "shiny_perfect_count": 1279
     },
     "recent_song_info": {
       "name_en": "Fracture Ray",
