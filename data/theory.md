@@ -32,6 +32,7 @@
       "is_char_uncapped": true,
       "is_skill_sealed": false,
       "rating": 1257,
+      "join_date": 1487980800,
       "character": 5
     },
     "best30_list": [
